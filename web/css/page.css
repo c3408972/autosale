@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Allerta Stencil Regular'), local('AllertaStencil-Regular'), url(font/Allerta%20Stencil.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+.filters .w3-col{padding: 0px 10px 0px 10px;}
+.arrows{position:absolute;top: 222px;box-shadow: 0 0 10px rgba(255, 255, 255, 0.81);border-radius: 0px;}
+.arrows.left{/* left: 2%; */}
+.arrows.right{right: 0%;}
+
+#form-AddAd #list{width: 100%; float: left;}
+#list .thumb{width: 100%; max-width: 156px; padding: 10px;}
+#list span{position: relative;}
+#list .fa.fa-trash{font-size: 14px;position: absolute;bottom: 0%;left: 83%;color: white;cursor: pointer;padding: 8px;background: rgb(177, 47, 47);border-radius: 20px;}
+
+.row-input{     margin-top: 5px; }
+.messageBlock{height: 20px;}
+.message{ margin: 0px;}
+
+#exitForm{padding: 0px !important;}
+
+.logo{font-family: "Allerta Stencil", Sans-serif;font-size: 21px;cursor: context-menu;}
+
+.imagesAuto img{max-height: 261px; width: auto; margin: auto; max-width: 100%; min-height: 261px;}
+.imagesAuto .arrows:hover{ text-decoration: blink; }
+
+.characteristics{padding: 0px 0px;}
+.characteristics table{ cursor: default; }
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span a{  border-radius: 0px;  }
+.active a{background-color: #4CAF50!important;     border: 1px solid #ccc!important;}
+.pagination li a{ color: black; }
+.pagination { display: flex;     justify-content: center;width: 100% }
